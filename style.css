@@ -50,6 +50,17 @@ a {
     align-items: flex-start;
 }
 
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-sub-title {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .hero .image {
     flex: 1;
 }
@@ -65,6 +76,10 @@ a {
 
 .hero .sign-up {
     border-width: 0;
+}
+
+.image {
+    background-color: beige;
 }
 
 .information {
@@ -104,25 +119,6 @@ a {
     border-radius: 12px;
 }
 
-.footer {
-    background-color: #1f2937;
-}
-
-.hero-title {
-    font-size: 48px;
-    font-weight: 900;
-    color: #f9faf8;
-}
-
-.hero-sub-title {
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.footer {
-    color: #f9faf8;
-}
-
 .cta {
     background-color: #3882f6;
 }
@@ -138,10 +134,11 @@ a {
     color: #1f2937;
 }
 
-.image {
-    background-color: beige;
-}
-
 .name {
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
