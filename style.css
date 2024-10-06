@@ -79,7 +79,16 @@ a {
 }
 
 .image {
-    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+    object-fit: conver;
 }
 
 .information {
