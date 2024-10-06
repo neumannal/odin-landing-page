@@ -138,6 +138,21 @@ a {
 
 .cta {
     background-color: #3882f6;
+    margin: 96px;
+    padding: 48px 96px;
+    border-radius: 12px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta .title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.cta .subtitle {
+    color: #e5e7eb;
 }
 
 .footer {
