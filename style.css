@@ -119,12 +119,9 @@ a {
     border-radius: 12px;
 }
 
-.cta {
-    background-color: #3882f6;
-}
-
 .testimonial {
     background-color: #e5e7eb;
+    padding: 96px 256px;
 }
 
 .quote {
@@ -136,6 +133,11 @@ a {
 
 .name {
     font-weight: bold;
+    text-align: end;
+}
+
+.cta {
+    background-color: #3882f6;
 }
 
 .footer {
