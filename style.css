@@ -56,7 +56,7 @@ a {
 
 .sign-up {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #f9faf8;
     background-color: #3882f6;
     border-radius: 6px;
     padding: 4px 12px;
@@ -65,6 +65,43 @@ a {
 
 .hero .sign-up {
     border-width: 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 64px 192px 96px 192px;
+}
+
+.information-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    align-self: center;
+}
+
+.information-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-container {
+    flex: 1 1 auto;
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #3882f6;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
 }
 
 .footer {
@@ -90,12 +127,6 @@ a {
     background-color: #3882f6;
 }
 
-.information-title {
-    font-size: 36px;
-    color: #1f2937;
-    font-weight: 900;
-}
-
 .testimonial {
     background-color: #e5e7eb;
 }
@@ -109,13 +140,6 @@ a {
 
 .image {
     background-color: beige;
-}
-
-.box {
-    border: 2px solid #3882f6;
-    width: 100px;
-    height: 100px;
-    border-radius: 12px;
 }
 
 .name {
